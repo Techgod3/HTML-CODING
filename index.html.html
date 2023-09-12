@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <script>
+            function Thanks(){
+                alert('Thank you for submiting this form. You will get a reply in 48 hours.');
+            }
+            </script>
+        <style>
+            form{
+                background-color:#1481ba;
+                margin-left:800px;
+                margin-right:800px;
+                padding-bottom:25px;
+                padding-top:25px;
+                opacity:0.8;
+            }
+            #Letter::first-letter{
+                color:lightblue;
+                font-size:30px;
+            }
+            #Line::first-line{
+                color:lightblue;
+                font-size:20px;
+                font-variant:small-caps;
+                text-shadow:2px 2px blue;
+            }
+            table,th,td{
+                font-size:20px;
+                border: 3px solid #2b2d42;
+            
+            }
+            body{
+                background:linear-gradient( #e7cec8,#7168c2,#228cdb,#19697b,#21b1b3);
+                background-repeat:no-repeat;
+                text-align:center;
+            }
+            </style>
+        </head>
+        <body>
+            <center>
+<h1 style="text-align:center;"> Pokemon! </h1>
+<table style="text-align:center;">
+    <tr>
+        <th> Pokemon </th>
+        <th> Type </th>
+        </tr>
+<tr>
+    <td> Mr.Mime </td>
+<td> Psychic & Fairy </td>
+    </tr>
+    <tr>
+    <td> Charizard </td>
+<td> Fire & Flying </td>
+    </tr>
+    <tr>
+    <td> Quaxly </td>
+<td> Water </td>
+    </tr>
+    </table>
+    <br>
+    <img src="https://c4.wallpaperflare.com/wallpaper/677/922/425/pokemon-pokemon-red-and-blue-blastoise-pokemon-bulbasaur-pokemon-wallpaper-preview.jpg" width="300px;">
+    <p id="Line" style="font-size:20px;"> Pokemon (an abbreviation for Pocket Monsters in Japanese) is a Japanese media franchise managed by The Pokémon Company, founded by Nintendo, Game Freak, and Creatures. <br> The franchise was created by Satoshi Tajiri in 1996, and is centered around fictional creatures called "Pokémon". <br> In Pokémon, Pokémon Trainers are people who catch, train, care for, and battle with Pokémon. <br> The English slogan for the franchise is "Gotta Catch ‘Em All!". <br> There are currently 1015 Pokémon species.  </p>
+    <p id="Letter" style="font-size:20px;"> The franchise began as  <i> <strong> <U> Pocket Monsters</u> </strong>: Red and Green (later released outside of Japan as Pokémon Red and Blue), a pair of video games for the original Game Boy handheld system that were developed by Game Freak and published by Nintendo in February 1996. <br> Pokémon soon became a media mix franchise adapted into various different media. <br> Pokémon is one of the highest-grossing media franchises of all time. <br> The Pokémon video game series is the third best-selling video game franchise of all time with more than 440 million copies sold and one billion mobile downloads. <br> The Pokémon video game series spawned an anime television series that has become the most successful video game adaptation of all time with over 20 seasons and 1,000 episodes in 192 countries.</i> </p>
+    <form>
+        <label id="fname"> First Name </label>
+        <input type="text" name="fname" placeholder="Firstname">
+        <br>
+        <br>
+        <label id="lname"> Last Name </label>
+        <input type="text" name="lname" placeholder="Lastname">
+        <br>
+        <br>
+        <label id="email"> Email  </label>
+        <input type="email" name="email" placeholder="Email">
+        <br>
+        <br>
+        <label id="Like"> Do you like Pokemon? </label>
+        <br>
+        <input type="radio" name="Like"><label>Yes!</label>
+        <input type="radio" name="Like"><label>No!</label>
+        <br>
+        <input type="submit" value="Submit"> <input type="reset" value="Reset">
+        <br>
+        <button  onclick="Thanks()"> Click Me! </button>
+        </form>
+        <br>
+        <img src="https://gifdb.com/images/high/yippee-yay-pokemon-chansey-hw4iriu2u40akql4.gif"> 
+            </body>
+    </html>
